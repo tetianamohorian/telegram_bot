@@ -1,0 +1,10 @@
+CREATE DATABASE IF NOT EXISTS telegram_bot;
+USE telegram_bot;
+
+CREATE TABLE IF NOT EXISTS violators (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    username VARCHAR(255),
+    message TEXT,
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
+
