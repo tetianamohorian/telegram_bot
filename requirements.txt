@@ -1,6 +1,0 @@
-python-telegram-bot==20.3
-transformers
-torch
-python-dotenv
-psycopg2-binary
-flask
